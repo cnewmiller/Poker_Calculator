@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="edu.depaul.csc372.cnewmiller_pokercalculator.TableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        >
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerSuit"
+                android:layout_margin="10sp">
+            </Spinner>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/suitImage" />
+
+        </TableRow>
+
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerValue"
+            android:layout_margin="10sp">
+        </Spinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Table"
+            android:id="@+id/addButton"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pinch out on the table to clear"
+            android:textSize="20dp"
+            android:gravity="center|top"/>
+
+        <RadioGroup
+            android:id="@+id/tableButtons"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pocket_card_1"
+                android:id="@+id/cardButton1"
+                android:checked="true"
+                android:onClick="onCardSlotChanged"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pocket_card_2"
+                android:id="@+id/cardButton2"
+                android:onClick="onCardSlotChanged"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flop"
+                android:id="@+id/cardButton3"
+                android:onClick="onCardSlotChanged"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flop"
+                android:id="@+id/cardButton4"
+                android:onClick="onCardSlotChanged"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flop"
+                android:id="@+id/cardButton5"
+                android:onClick="onCardSlotChanged"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/river"
+                android:id="@+id/cardButton6"
+                android:onClick="onCardSlotChanged"
+                />
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate odds"
+            android:id="@+id/calculate"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

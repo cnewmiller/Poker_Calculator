@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/list_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/list_pairHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of a Pair:"
+            />
+
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_pair"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/list_tripleHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of Three of a Kind:"
+            />
+
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_triple"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/list_quadHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of Four of a Kind:"
+            />
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_quad"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/list_flushHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of a Flush:"
+            />
+
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_flush"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/list_fullHouseHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of a Full House:"
+            />
+
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_fullHouse"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/list_straightHeader"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Probability of a Straight:"
+            />
+
+        <edu.depaul.csc372.cnewmiller_pokercalculator.oddsView
+            android:id="@+id/oddsView_straight"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

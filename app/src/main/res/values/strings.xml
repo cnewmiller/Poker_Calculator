@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cnewmiller_PokerCalculator</string>
+    <string name="pocket_card_1">pocket card 1</string>
+    <string name="pocket_card_2">pocket card 2</string>
+    <string name="flop">flop</string>
+    <string name="river">River</string>
+    <string name="settings_pocket_card_1">settings_pocket_card_1</string>
+    <string name="settings_pocket_card_2">settings_pocket_card_2</string>
+    <string name="settings_flop1">settings_flop1</string>
+    <string name="settings_flop2">settings_flop2</string>
+    <string name="settings_flop3">settings_flop3</string>
+    <string name="settings_river">settings_river</string>
+    <string name="global_settings">edu.depaul.csc372.newmiller.globalSettings</string>
+    <string name="settings_loadTable">settings_loadTable</string>
+</resources>
